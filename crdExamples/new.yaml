@@ -1,0 +1,7 @@
+apiVersion: test.cattle.io/v2
+kind: Foo
+metadata:
+  name: "new-resource"
+spec:
+  initialField: "some-example-2"
+  addedField: "some-added-value"

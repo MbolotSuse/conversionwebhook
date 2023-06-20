@@ -1,0 +1,7 @@
+apiVersion: test.cattle.io/v1
+kind: Foo 
+metadata:
+  name: "old-resource"
+spec:
+  initialField: "some-example"
+  removedField: "some-removed-value"
